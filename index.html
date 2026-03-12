@@ -459,6 +459,39 @@
       body { max-width: 480px; margin: 0 auto; }
     }
   </style>
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q63LJX72W5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-Q63LJX72W5', {
+        page_title: 'Quiz ALPSI',
+        page_location: window.location.href
+      });
+
+      // Événements personnalisés ALPSI
+      function trackQuizStart(nbQuestions, modules) {
+        gtag('event', 'quiz_start', {
+          event_category: 'Quiz',
+          event_label: modules.join(', '),
+          value: nbQuestions
+        });
+      }
+      function trackQuizComplete(score, total, pct) {
+        gtag('event', 'quiz_complete', {
+          event_category: 'Quiz',
+          event_label: pct >= 80 ? 'Reussi' : 'Echoue',
+          value: Math.round(pct)
+        });
+        gtag('event', pct >= 80 ? 'quiz_pass' : 'quiz_fail', {
+          event_category: 'Quiz',
+          score_pct: Math.round(pct),
+          questions_total: total,
+          correct_answers: score
+        });
+      }
+    </script>
 </head>
 <body>
 
@@ -747,6 +780,11 @@ function startQuiz() {
 
   renderQuiz();
   showScreen('screen-quiz');
+
+  // GA4 — début du quiz
+  if (typeof trackQuizStart === 'function') {
+    trackQuizStart(selectedQ.length, active);
+  }
 }
 
 // ── RENDER QUIZ ──────────────────────────────
@@ -805,6 +843,13 @@ function submitQuiz() {
   selectedQ.forEach((q, i) => { if (userAns[i] === q.correct) score++; });
   renderResults(score);
   showScreen('screen-results');
+
+  // GA4 — fin du quiz
+  const total = selectedQ.length;
+  const pct = total ? (score / total * 100) : 0;
+  if (typeof trackQuizComplete === 'function') {
+    trackQuizComplete(score, total, pct);
+  }
 }
 
 // ── RESULTS ──────────────────────────────────
