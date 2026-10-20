@@ -687,6 +687,15 @@
   ],
   "module2": [
     {
+      "question": "Dans le cadre du traitement des réclamations des clients, un Prestataire de Services d'Investissement a pour mission de :",
+      "options": [
+        "Établir et suivre des indicateurs liés aux réclamations des clients, pour améliorer les dispositifs internes",
+        "Vérifier que les réclamations des clients professionnels sont traitées après les réclamations des clients non professionnels",
+        "Déléguer le traitement des réclamations adressées par ses clients existants ou potentiels à une société externe, indépendante et agréée par l'AMF"
+      ],
+      "correct": "Établir et suivre des indicateurs liés aux réclamations des clients, pour améliorer les dispositifs internes"
+    },
+    {
       "question": "Conformément à l’organisation du traitement des réclamations clients, le médiateur interne dans les établissements de crédit et entreprises d’investissement doit réaliser un compte rendu d’activité :",
       "options": [
         "Tous les 3 mois",
@@ -1633,6 +1642,42 @@
     }
   ],
   "module3": [
+    {
+      "question": "Une de ces catégories de client n'est pas définie dans la Directive européenne MIF :",
+      "options": [
+        "Client institutionnel",
+        "Contrepartie éligible",
+        "Client non professionnel"
+      ],
+      "correct": "Client institutionnel"
+    },
+    {
+      "question": "Dans le cadre des obligations d'information aux clients non professionnels, quels éléments relatifs aux coûts doivent être communiqués au client ?",
+      "options": [
+        "Les investissements passés réalisés par le prestataire",
+        "Les modalités de paiement éventuelles",
+        "Les coûts prélevés au cours des 3 dernières années"
+      ],
+      "correct": "Les modalités de paiement éventuelles"
+    },
+    {
+      "question": "L'agrément des entreprises d'investissement est donné par :",
+      "options": [
+        "L'Autorité de contrôle prudentiel et de résolution (ACPR)",
+        "Le Ministère de l'Économie et des Finances",
+        "L'Autorité des marchés financiers (AMF)"
+      ],
+      "correct": "L'Autorité de contrôle prudentiel et de résolution (ACPR)"
+    },
+    {
+      "question": "Que doit fournir le prestataire en plus des informations sur les coûts et frais liés à un investissement ?",
+      "options": [
+        "Un graphique comparant les performances passées du fonds avec celles du marché",
+        "Une estimation des frais potentiels en fonction du montant de l'investissement",
+        "Une illustration montrant l'effet cumulatif des coûts sur le rendement"
+      ],
+      "correct": "Une illustration montrant l'effet cumulatif des coûts sur le rendement"
+    },
     {
       "question": "Dans le cadre de la publicité et la communication promotionnelle des instruments financiers considérés comme hautement spéculatifs, il est interdit au PSI d’adresser les documents par voie électronique :",
       "options": [
@@ -5224,6 +5269,24 @@
   ],
   "module5": [
     {
+      "question": "Comment les dividendes, coupons et autres rémunérations reçus par un OPC impactent-ils sa valeur liquidative (VL) ?",
+      "options": [
+        "Ils n'ont aucun effet sur la VL",
+        "Ils entraînent automatiquement une baisse de la VL",
+        "Ils font augmenter la VL"
+      ],
+      "correct": "Ils font augmenter la VL"
+    },
+    {
+      "question": "Les Exchange Traded Funds (ETF) sont un exemple spécifique d'instruments de gestion collective. Leur spécificité est :",
+      "options": [
+        "Qu'ils sont investis exclusivement en produits dérivés",
+        "Qu'ils sont négociés en bourse et font l'objet d'une publication régulière de leurs inventaires de portefeuille",
+        "Qu'ils sont uniquement libellés en dollar"
+      ],
+      "correct": "Qu'ils sont négociés en bourse et font l'objet d'une publication régulière de leurs inventaires de portefeuille"
+    },
+    {
       "question": "En 2024, le taux d’épargne des ménages français s’élève à :",
       "options": [
         "20%",
@@ -6407,6 +6470,15 @@
   ],
   "module7": [
     {
+      "question": "Dans le cadre des bons de capitalisation, le souscripteur dispose :",
+      "options": [
+        "D'un délai de rétractation de 30 jours",
+        "D'un délai de rétractation de 14 jours",
+        "D'aucun délai de rétractation mais d'un délai de réflexion de 3 jours"
+      ],
+      "correct": "D'un délai de rétractation de 30 jours"
+    },
+    {
       "question": "Dans le cadre de la capacité à contracter et des comptes à titulaires multiples, une procuration :",
       "options": [
         "Peut être accordée par le mandant à toute personne, y compris à un incapable",
@@ -7398,6 +7470,42 @@
     }
   ],
   "module8": [
+    {
+      "question": "Dans le cadre d'une augmentation de capital en numéraire, quelle est la caractéristique du prix de souscription des actions nouvelles ?",
+      "options": [
+        "Il est proche du cours de bourse néanmoins inférieur à celui-ci",
+        "Il est égal à la valeur nominale",
+        "Il est égal au cours de bourse"
+      ],
+      "correct": "Il est proche du cours de bourse néanmoins inférieur à celui-ci"
+    },
+    {
+      "question": "Quels standards internationaux permettent d'identifier les acteurs et les instruments financiers ?",
+      "options": [
+        "Le code IBAN et le LEI",
+        "Le LEI et le code SWIFT",
+        "Le code ISIN et le LEI"
+      ],
+      "correct": "Le code ISIN et le LEI"
+    },
+    {
+      "question": "Conformément à la valorisation des actions, la valeur patrimoniale d'une société est égale :",
+      "options": [
+        "Au cours de la bourse multiplié par le nombre d'actions existantes dans la société",
+        "À la somme de tous les revenus qu'elle sera en mesure de dégager dans le futur",
+        "À la somme de ses actifs diminuée de toutes ses dettes"
+      ],
+      "correct": "À la somme de ses actifs diminuée de toutes ses dettes"
+    },
+    {
+      "question": "Au sein des marchés financiers, un teneur de marché :",
+      "options": [
+        "Intervient sur les marchés financiers pour compte de tiers",
+        "Est un négociateur d'instruments financiers travaillant chez un PSI",
+        "Ne contribue pas à la liquidité du marché"
+      ],
+      "correct": "Est un négociateur d'instruments financiers travaillant chez un PSI"
+    },
     {
       "question": "Quelle est la plateforme de règlement livraison au niveau européen ?",
       "options": [

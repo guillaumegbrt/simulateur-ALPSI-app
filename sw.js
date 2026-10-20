@@ -1,4 +1,4 @@
-const CACHE_NAME = 'alpsi-qcm-v1';
+const CACHE_NAME = 'alpsi-qcm-v2';
 const ASSETS = [
   './',
   './index.html',
