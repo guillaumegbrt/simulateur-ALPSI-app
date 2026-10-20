@@ -361,15 +361,6 @@
       "correct": "Les systèmes de négociation organisés"
     },
     {
-      "question": "Le code ISIN est un code international utilisé pour identifier :",
-      "options": [
-        "Les transactions de carte de crédit",
-        "Les numéros de compte bancaire",
-        "Les instruments financiers"
-      ],
-      "correct": "Les instruments financiers"
-    },
-    {
       "question": "La surveillance de la commercialisation des produits financiers d’assurance et de placement est effectuée :",
       "options": [
         "Par la Banque de France",
@@ -1209,6 +1200,15 @@
       "correct": "Une information privilégiée"
     },
     {
+      "question": "Une information non publique, dont la divulgation serait susceptible d’avoir une influence significative sur le cours d’une action ou d’un autre instrument financier, est appelée :",
+      "options": [
+        "Une information confidentielle",
+        "Une information privilégiée",
+        "Une information anonyme"
+      ],
+      "correct": "Une information privilégiée"
+    },
+    {
       "question": "Dans le cadre de la conformité, que permet la procédure d’alerte ?",
       "options": [
         "Elle protège la responsabilité du collaborateur même si ce dernier enfreint les règles",
@@ -1661,6 +1661,15 @@
       "correct": "Les modalités de paiement éventuelles"
     },
     {
+      "question": "Dans le cadre des obligations d’information aux clients non professionnels, quels éléments relatifs aux coûts doivent être communiqués au client ?",
+      "options": [
+        "Les modalités de paiement éventuelles",
+        "Les investissements passés réalisés par le prestataire",
+        "Les coûts prélevés au cours des 2 dernières années"
+      ],
+      "correct": "Les modalités de paiement éventuelles"
+    },
+    {
       "question": "L'agrément des entreprises d'investissement est donné par :",
       "options": [
         "L'Autorité de contrôle prudentiel et de résolution (ACPR)",
@@ -1677,6 +1686,15 @@
         "Une illustration montrant l'effet cumulatif des coûts sur le rendement"
       ],
       "correct": "Une illustration montrant l'effet cumulatif des coûts sur le rendement"
+    },
+    {
+      "question": "Dans le cadre des obligations d’information sur les coûts aux clients non professionnels, que doit préciser le prestataire si une partie du prix total est exprimée dans une devise autre que l’euro ?",
+      "options": [
+        "La conversion approximative en euros",
+        "La devise concernée ainsi que le taux et base de change applicables",
+        "Rien, le prix total exprimé dans une devise étrangère est suffisant"
+      ],
+      "correct": "La devise concernée ainsi que le taux et base de change applicables"
     },
     {
       "question": "Dans le cadre de la publicité et la communication promotionnelle des instruments financiers considérés comme hautement spéculatifs, il est interdit au PSI d’adresser les documents par voie électronique :",
@@ -2766,6 +2784,15 @@
         "Risque de marché",
         "Risque de volatilité",
         "Risque de liquidité"
+      ],
+      "correct": "Risque de liquidité"
+    },
+    {
+      "question": "Pour un investisseur qui souhaite vendre une quantité limitée d’un instrument financier, et qui n’est pas difficile de trouver une contrepartie susceptible de lui en racheter cette quantité, on parle de :",
+      "options": [
+        "Risque de liquidité",
+        "Risque de crédit",
+        "Risque de marché"
       ],
       "correct": "Risque de liquidité"
     },
@@ -4799,6 +4826,15 @@
       "correct": "La manière dont l’entreprise est dirigée et contrôlée"
     },
     {
+      "question": "Dans le cadre des critères ESG, les critères de gouvernance portent sur :",
+      "options": [
+        "L’impact social de l’entreprise sur ses parties prenantes",
+        "La maîtrise d’une entreprise en matière de contrôle",
+        "L’impact environnemental de l’entreprise"
+      ],
+      "correct": "La maîtrise d’une entreprise en matière de contrôle"
+    },
+    {
       "question": "Comment fonctionnent les produits d’investissement solidaire ?",
       "options": [
         "L’intégralité de l’encours finance directement des projets à forte utilité sociale ou environnementale",
@@ -5078,6 +5114,15 @@
       "correct": "Présente les engagements pris par les offreurs de produits d’investissement responsable sur une échelle d’intensité"
     },
     {
+      "question": "La France a décidé de créer un label d’investissement responsable. Lequel ?",
+      "options": [
+        "L’Investissement Socialement Responsable (ISR), la finance verte et la finance solidaire",
+        "La finance verte, la finance sociale et solidaire et la gestion passive des portefeuilles",
+        "L’Investissement Socialement Responsable (ISR), la finance circulaire et la finance publique"
+      ],
+      "correct": "L’Investissement Socialement Responsable (ISR), la finance verte et la finance solidaire"
+    },
+    {
       "question": "Un ordre avec service de règlement différé (SRD) est un ordre exécuté en J (date de négociation) et :",
       "options": [
         "Livré aujourd'hui et réglé à la fin de l'année civile",
@@ -5274,6 +5319,24 @@
         "Ils n'ont aucun effet sur la VL",
         "Ils entraînent automatiquement une baisse de la VL",
         "Ils font augmenter la VL"
+      ],
+      "correct": "Ils font augmenter la VL"
+    },
+    {
+      "question": "Quel effet a le paiement quotidien des charges administratives et financières sur l’actif net d’un OPC ?",
+      "options": [
+        "Ils font augmenter l’actif net",
+        "Ils n’ont aucun impact sur l’actif net",
+        "Ils font diminuer l’actif net"
+      ],
+      "correct": "Ils font diminuer l’actif net"
+    },
+    {
+      "question": "Comment les demandes d’achat et de vente transmises en ligne par un OPC impactent-elles sa valeur liquidative (VL) ?",
+      "options": [
+        "Ils n’ont aucun impact sur le niveau de la VL",
+        "Ils font augmenter la VL",
+        "Ils font diminuer la VL"
       ],
       "correct": "Ils font augmenter la VL"
     },
@@ -5780,15 +5843,6 @@
         "Elles ne sont pas soumises à l’IFI"
       ],
       "correct": "Elles ne sont pas soumises à l’impôt sur les sociétés et les associés sont soumis personnellement à l'impôt sur le revenu selon leur quote-part de parts détenues"
-    },
-    {
-      "question": "Investir dans une SCPI de rendement représente :",
-      "options": [
-        "Un placement liquide",
-        "Un investissement à long terme",
-        "Un investissement permettant de bénéficier d’une économie d’impôt"
-      ],
-      "correct": "Un investissement à long terme"
     },
     {
       "question": "Dans le cadre de l’acquisition de SCPI, quelle proposition est correcte ?",
@@ -6587,15 +6641,6 @@
       "correct": "100 000€"
     },
     {
-      "question": "Une de ces catégories de client n'est pas définie dans la Directive européenne MIF :",
-      "options": [
-        "Contrepartie éligible",
-        "Client institutionnel",
-        "Client non professionnel"
-      ],
-      "correct": "Client institutionnel"
-    },
-    {
       "question": "Dans le cadre de la protection des clients dans la zone euro, les systèmes de garantie des dépôts sont organisés :",
       "options": [
         "Au niveau national",
@@ -6612,6 +6657,15 @@
         "Le PSI peut commercialiser un instrument financier complexe à tout type de clientèle sans avoir besoin de réaliser un ciblage spécifique"
       ],
       "correct": "Le PSI doit s'assurer que ses collaborateurs comprennent le produit, analyser sa structure de coût, prendre en compte le cadre juridique, cibler la clientèle adéquate et vérifier que le produit ne sert pas à commercialiser indirectement un autre produit non destiné aux investisseurs non professionnels"
+    },
+    {
+      "question": "Quelles sont les obligations d’un PSI (prestataire de services d’investissement) concernant la commercialisation d’un instrument financier complexe ?",
+      "options": [
+        "Le PSI doit s’assurer que ses collaborateurs comprennent le produit, analyser sa structure de coût, prendre en compte le profil de risque, vérifier la liquidité adéquate et vérifier que le produit ne sert pas à commercialiser indûment un autre produit non destiné aux investisseurs non professionnels",
+        "Le PSI peut commercialiser l’instrument financier complexe à tout type de clientèle sans avoir besoin de réaliser un ciblage spécifique",
+        "Le PSI doit uniquement se concentrer sur la rentabilité du produit et son potentiel de gain pour les investisseurs"
+      ],
+      "correct": "Le PSI doit s’assurer que ses collaborateurs comprennent le produit, analyser sa structure de coût, prendre en compte le profil de risque, vérifier la liquidité adéquate et vérifier que le produit ne sert pas à commercialiser indûment un autre produit non destiné aux investisseurs non professionnels"
     },
     {
       "question": "Dans le cadre du conseil en investissement, la déclaration d'adéquation remise par le PSI :",
@@ -7208,6 +7262,15 @@
       "correct": "A l'usufruitier"
     },
     {
+      "question": "Pour un compte d’instruments financiers, les titres appartiennent :",
+      "options": [
+        "À l’acheteur",
+        "Au dépositaire",
+        "Au teneur de compte"
+      ],
+      "correct": "À l’acheteur"
+    },
+    {
       "question": "La MIFID décide de classifier les clients pour :",
       "options": [
         "Mieux protéger les clients selon leur catégorie",
@@ -7467,6 +7530,15 @@
         "Commission nationale de l'information et des libertés"
       ],
       "correct": "Commission nationale de l'informatique et des libertés"
+    },
+    {
+      "question": "En France, quelle est l’entité en charge de la protection des données ?",
+      "options": [
+        "La RGPD",
+        "La CNIL",
+        "La CNF"
+      ],
+      "correct": "La CNIL"
     }
   ],
   "module8": [
@@ -7592,15 +7664,6 @@
       "options": [
         "Sur l'ensemble du patrimoine au 1er janvier de l'année d'imposition",
         "Uniquement sur l'évaluation du portefeuille boursier au 1er janvier de l'année d'imposition",
-        "Uniquement sur l'évaluation du patrimoine immobilier au 1er janvier de l'année d'imposition"
-      ],
-      "correct": "Uniquement sur l'évaluation du patrimoine immobilier au 1er janvier de l'année d'imposition"
-    },
-    {
-      "question": "Les intérêts perçus dans le cadre d’un compte à terme sont imposables :",
-      "options": [
-        "Au prélèvement forfaitaire unique uniquement",
-        "Aux prélèvements sociaux uniquement",
         "Au prélèvement forfaitaire unique ou sur option au barème progressif de l’Impôt sur le Revenu et aux prélèvements sociaux"
       ],
       "correct": "Au prélèvement forfaitaire unique ou sur option au barème progressif de l’Impôt sur le Revenu et aux prélèvements sociaux"
